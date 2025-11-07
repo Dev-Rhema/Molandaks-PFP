@@ -90,7 +90,7 @@ function App() {
         <main className=" w-[70vw]  m-auto flex max-lg:w-full h-full">
           {/* MAIN CONTAINER */}
           <div
-            className="bg-white/20 rounded-2xl shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-sm border border-white/30 grid grid-cols-2 max-lg:grid-cols-1 items-center justify-center h-full w-full px-8
+            className="bg-white/20 rounded-2xl shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-sm border border-white/30 grid grid-cols-2 max-lg:grid-cols-1 items-center justify-center h-full w-full px-8 max-md:p-4
            py-4"
           >
             {/* Canvas Section*/}
