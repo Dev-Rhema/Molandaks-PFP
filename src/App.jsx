@@ -79,7 +79,8 @@ function App() {
       <div
         className="flex items-center justify-center p-6 max-md:p-4 min-h-screen flex-col gap-6"
         style={{
-          backgroundImage: `url(public/mainbg.jpg)`,
+          // public/ files are served from the site root in Vite/Vercel
+          backgroundImage: `url('/mainbg.jpg')`,
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           backgroundSize: "cover",
