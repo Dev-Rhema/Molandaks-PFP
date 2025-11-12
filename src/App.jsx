@@ -110,6 +110,11 @@ function App() {
                   className="row-start-1 col-start-1 w-full h-full"
                 />
                 <img
+                  src={selectedTraits.faceAccessory.src}
+                  alt={selectedTraits.faceAccessory.name}
+                  className="row-start-1 col-start-1 w-full h-full"
+                />
+                <img
                   src={selectedTraits.headgear.src}
                   alt={selectedTraits.headgear.name}
                   className="row-start-1 col-start-1 w-full h-full"
@@ -122,11 +127,6 @@ function App() {
                 <img
                   src={selectedTraits.mouth.src}
                   alt={selectedTraits.mouth.name}
-                  className="row-start-1 col-start-1 w-full h-full"
-                />
-                <img
-                  src={selectedTraits.faceAccessory.src}
-                  alt={selectedTraits.faceAccessory.name}
                   className="row-start-1 col-start-1 w-full h-full"
                 />
                 <img
