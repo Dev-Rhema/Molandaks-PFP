@@ -109,7 +109,11 @@ function App() {
                   alt={selectedTraits.skin.name}
                   className="row-start-1 col-start-1 w-full h-full"
                 />
-
+                <img
+                  src={selectedTraits.headgear.src}
+                  alt={selectedTraits.headgear.name}
+                  className="row-start-1 col-start-1 w-full h-full"
+                />
                 <img
                   src={selectedTraits.eyes.src}
                   alt={selectedTraits.eyes.name}
@@ -123,11 +127,6 @@ function App() {
                 <img
                   src={selectedTraits.faceAccessory.src}
                   alt={selectedTraits.faceAccessory.name}
-                  className="row-start-1 col-start-1 w-full h-full"
-                />
-                <img
-                  src={selectedTraits.headgear.src}
-                  alt={selectedTraits.headgear.name}
                   className="row-start-1 col-start-1 w-full h-full"
                 />
                 <img
